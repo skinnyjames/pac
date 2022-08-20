@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Quicksand;
+  src: url("public/fonts/Quicksand-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'gilroy-light';
+  src: url('public/fonts/gilroy-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroy-extrabold';
+  src: url('public/fonts/gilroy-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1, h2 {
+  font-family: 'gilroy-extrabold', sans-serif;
+  text-shadow: 3px 3px rgb(0, 0 ,0, .2);
+  filter: drop-shadow(3px 3px rgb(0, 0, 0, 0.2));
+}
+
+h3 {
+  font-family: 'Quicksand', serif;
+  font-size: 33px;
+}
+p {
+  font-size: 23px
+}
+
+:root {
+  /*font-family: Inter, Avenir, Helvetica, Arial, sans-serif;*/
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+  line-height: 33px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  --bluesky-gradient: linear-gradient(0deg, rgba(87,121,195,1) 0%, rgba(112,143,210,1) 100%, rgba(112,143,210,1) 100%);
+  --bluesky: #5779c3;
+  --bluesky-light: #708fd2;
+  --honey-yellow: #f6ae2dff;
+  --shimmering-blush: #e07993ff;
+  --blue-yonder: #607196ff;
+  --lavender-gray: #babfd1ff;
+  --cultured: #e8e9edff;
+
+  --queen-blue: #33658aff;
+  --dark-sky-blue: #86bbd8ff;
+  --moss-green: #758e4fff;
+  --orange-red: #f26419ff;
+
+  --pink: #ff7b9c;
+  --tea-green: #cde7b0ff;
+  --mint-cream: #e7efe9ff;
+  --shadow-blue: #7286a0ff;
+  --ebony: #213547;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background: var(--bluesky-gradient);
+  width: 100%;
+}
+body {
+  /*background-image: url('/public/cloud.svg');
+  background-blend-mode: darken;*/
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  width: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
